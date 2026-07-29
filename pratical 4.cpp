@@ -2,7 +2,8 @@
 #include <chrono>
 
 using namespace std;
-using namespace std::chrono;
+using namespace std::chrono;  
+
 
 
 unsigned long long factorialIterative(int n)
@@ -12,6 +13,7 @@ unsigned long long factorialIterative(int n)
 
     while (i <= n)
     {
+
         result = result * i;
         i++;
     }
